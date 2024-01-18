@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-family: 'Candara Light';
+}
+
+.container1 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url('login_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container2 {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #9CE2E2;
+    display: flex;
+    justify-content: center;
+}
+
+#image_centering {
+    text-align: center;
+    width: 250px;
+}
+
+#logo_image_index {
+    width:130px;
+    height:130px;
+    margin:auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* login form */
+.login_form {
+    border-radius: 15px;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+#log_in_form {
+    background-color: #EAEFF2;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#register_form {
+    background-color: #EAEFF2;
+    width: 420px;
+    height: auto;
+    float: left;
+    padding: 10px 20px 10px 20px;
+}
+
+.input-group {
+    top: 150px;
+    /* position: absolute; */
+    width: 270px;
+    /* transition: .5s; */
+}
+
+.input-group .input-field {
+    width: 170px;
+    height: 25px;
+    margin-top: 5px;
+    padding-left: 10px;
+    background: transparent;
+    padding-right: 10px;
+    border: 1px solid rgb(54, 40, 40);
+    border-radius: 15px;
+    outline: none;
+}
+
+.submit-btn {
+    width: 55%;
+    border-radius: 15px;
+    margin: auto;
+    display: block;
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px 30px;
+    background-color: #FF4924;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.check-box {
+    margin: 30px 10px 30px 0;
+}
+
+.input-group span {
+    color: #777;
+    font-size: 14px;
+    bottom: 80px;
+    position: absolute;
+}
+
+form {
+    display: inline;
+}
+
+#form_right, #form_left {
+    float: left;
+    width: 48%;
+    margin-right: 8px;
+}
+
+#gender_radio {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+#section {
+    margin-bottom: 20px;
+}
+
+
+/* login form */

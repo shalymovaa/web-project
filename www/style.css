@@ -1,0 +1,673 @@
+body {
+    margin: 0;
+    height: 100%;
+    background-color: #D3f0f4;
+    font-family: 'Candara Light';
+}
+
+.container {
+    width: 35%;
+    height: auto;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.right_nav {
+    
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+
+.left_nav {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+}
+
+#info, #navigation, #requests, #suggestions,#news,#myposts {
+    
+    width: 95%;
+    border-radius: 10px;
+    background-color: #EAEFF2;
+    border: 1px #e5c9bd solid;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    color:#9c7063;
+    
+}
+
+#info,#requests,#suggestions {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #9c7063;
+}
+
+
+/* ==========================================Dastan========================================== */
+
+
+/* ==========================================Dastan========================================== */
+
+
+/* ==========================================Kamila========================================== */
+
+
+
+/* --------------------message list details-------------------- */
+.container_messages {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #EAEFF2;
+    width: 35%;
+    height: auto;
+    float: left;
+    margin-left: 15px;
+    border: 1px #e5c9bd solid;
+    margin-top: 30px;
+}
+
+.message_wrapper {
+    height: 90px;
+    border-top: 1px #e5c9bd solid;
+    border-bottom: 1px #e5c9bd solid;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#message_single {
+    height: 60px;
+    width: 100%;
+}
+
+#message_details {
+    color: #9c7063;
+    width: 85%;
+    float: right;
+    height: 100%;
+}
+
+#messenger {
+    font-size: 18px;
+}
+#message_details p{
+    margin: 10px 10px;
+}
+
+#messenger_photo {
+    width:13%;
+    height: 90%;
+    border-radius: 10px;
+    border: 1px solid;
+    display: inline-block;
+    margin: 2px 0px 0px 6px;
+}
+/* --------------------message list details-------------------- */
+
+/* --------------------search engine-------------------- */
+
+#container_search {
+    background-color: #EAEFF2;
+    border-radius: 10px;
+    width: 97%;
+    margin: auto;
+    margin-top: 10px;
+    height: 55px;
+    border: 1px #e5c9bd solid;   
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#container_search .submit-btn {
+    width: auto;
+    border-radius: 15px;
+    margin: auto;
+    
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #FF4924;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+#container_search #input{
+    height: 20px;
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+
+#search {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px 10px 15px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#search_wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+#search_text {
+    clear: both;
+    width: 70%;
+    height: auto;
+    float: left;
+    margin-left: 3%;
+}
+
+#search_send {
+    width: 21%;
+    height: auto;
+    float: left;
+    margin-left: 3%;
+}
+/* --------------------search engine-------------------- */
+
+/* new post input field added */
+#container_new_post {
+    background-color: #EAEFF2;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    width: 97%;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    border: 1px #e5c9bd solid;
+    clear: both;
+
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#new_post_text {
+    width: 65%;
+    float: left;
+}
+
+#new_post_buttons {
+    width: 28%;
+    float: left;
+}
+
+#button_space1 {
+    width: 35%;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+#button_space2 {
+    width: 55%;
+    float: left;
+}
+
+.attach-btn {
+    width: auto;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-btn-new {
+    width: 75px;
+    border-radius: 15px;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #FF4924;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/* new post input field added */
+
+
+/* change password form */
+#container_change_password {
+    background-color: #EAEFF2;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    width: 97%;
+    margin: auto;
+    margin-top: 10px;
+    height: auto;
+    border: 1px #e5c9bd solid;
+    clear: both;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#container_change_password form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 65%;
+}
+
+/* change password form */
+
+
+/* --------------------message chat details-------------------- */
+.chat_wrapper {
+    height: 414px;
+    padding: 15px 0px 15px 0px;
+    width: 100%;
+    border-top: 1px #e5c9bd solid;
+    border-bottom: 1px #e5c9bd solid;
+    overflow-y: auto;
+}
+
+.chat_wrapper::-webkit-scrollbar {
+    width: 0px;
+}
+
+#new_message {
+    width: 100%;
+    height: auto;
+    padding: 10px 10px 10px 15px;
+}
+
+#message_text {
+    width: 70%;
+    height: auto;
+    float: left;
+}
+
+#message_send {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.chat_messages {
+    width: 35%;
+    height: auto;
+    padding: 5px 15px 5px 15px;
+    border: 1px #9CE2E2 solid;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#my_message {
+    float: right;
+    margin-right: 10px;
+    clear: both;
+    margin: 4px 4px 4px 4px;
+    color: #9c7063;
+}
+
+#their_message {
+    float: left;
+    margin-left: 10px;
+    clear: both;
+    margin: 4px 4px 4px 4px;
+    color: #9c7063;
+}
+
+#talking_to {
+    padding-bottom: 10px ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #9c7063;
+}
+
+#talking_to #name {
+    margin-top: 0px;
+}
+
+
+/* --------------------message chat details-------------------- */
+
+
+
+
+/* logo on the main page */
+#logo_main_page {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo_main_page img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 0px;
+}
+/* logo on the main page */
+
+
+.grid-item .friend_request {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: rgb(110, 187, 226);
+    text-decoration: underline;
+    cursor: pointer;
+    margin:4px;
+}
+
+
+
+#suggestions .submit-btn-add {
+    width: auto;
+    border-radius: 15px;
+    margin: auto;
+     
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px 30px;
+    background-color: #FF4924;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+/* ==========================================Kamila========================================== */
+
+/* ==========================================Aigerim========================================== */
+#ava{
+    width:40px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid;
+    display: inline-block;
+    
+}
+#name{
+    display: inline-block;
+    margin-top: 20px;
+}
+#commentdiv{
+    width:75%;
+    height:auto;
+    border:#e5c9bd 2px solid;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;color:#9c7063;
+    font-size:15px;
+}
+#txt{
+    color:#9c7063;
+    
+}
+#post{
+    width:100%;
+    height: 50%;
+    display: inline-block;
+}
+#navigation {
+    display: flex;
+    width: 95%;
+    height: 400px;
+    border-radius: 10px;
+    float: left;
+    flex-direction: column;
+    background-color: #EAEFF2;
+    cursor: pointer;
+   
+    border: 1px #e5c9bd solid;
+    opacity: 80%;
+ }
+#navigation a {
+    padding: 10px;
+    color:#9c7063;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 20px;
+    font-size: 20px;
+    margin-left: 70px;
+    
+    
+}
+
+
+#navigation a:hover {
+    color: #ff4924;
+}
+
+/*#navigation a.active {
+    background-color: #ff4924;
+    color: white;
+  }
+*/
+
+#iconhome, #iconfriends, #iconmessages,#iconnews,#iconsettings,#iconlogout{
+    height: 20px;
+    width: 20px;
+    opacity: 0.5;
+}
+.submit-btn {
+    width: auto;
+    border-radius: 15px;
+    margin: auto;
+    
+    color: #fff;
+    margin-top: 18px;
+    padding: 10px 30px;
+    background-color: #FF4924;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/*HOME*/
+#all_comments{
+    max-height: 200px;
+    overflow-y:auto;
+}
+#all_comments::-webkit-scrollbar{
+    width:0px;
+
+}
+.container1 {
+    
+    width: 15%;
+    height: 500px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.left_nav1 {
+    
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+}
+#avahome{
+    margin-top: 20px;
+    width:90%;
+    height: 90%;
+}
+#name1{
+    color:#9c7063;;
+    font-size:25px ;
+}
+#center{
+width: 95%;
+    border-radius: 10px;
+    background-color: #EAEFF2;
+    border: 1px #e5c9bd solid;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    color:#9c7063;
+    text-align: center;
+}
+#fl1,#fl{
+    display:inline-block;
+    width:50%;
+    height: auto;
+    
+}
+#requests1{
+    width: 95%;
+    border-radius: 10px;
+    background-color: #EAEFF2;
+    border: 1px #e5c9bd solid;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    color:#9c7063;
+    display:flex;
+    
+}
+
+/*like*/
+#likebtn{
+    width:5px;
+    height: 5px;
+}
+
+.btn{
+    background: transparent;
+    border: none;
+    
+    font-size: 20px;
+    
+    color: grey;
+}
+.btn1{
+    background: transparent;
+    border: none;
+    
+    font-size: 20px;
+    
+    color: red;
+}
+
+.btn i:hover{
+    cursor: pointer;
+}
+/*comment*/
+textarea
+{
+    height: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+
+
+/*FRIENDS*/
+.container2 {
+    text-align: center;
+    width: 51%;
+    height: 500px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.grid-container{
+    width: 95%;
+    border-radius: 10px;
+    background-color: #EAEFF2;
+    border: 1px #e5c9bd solid;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+    color:#9c7063;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+.grid-item{
+    display: inline-block;
+    margin:10px 7px 10px 5px;
+    color:#9c7063;
+    font-size: 15px;
+    text-align: center;
+}
+#mes,#del {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    /*optional*/
+    font-family: arial, sans-serif;
+    /*input has OS specific font-family*/
+    color: rgb(110, 187, 226);
+    text-decoration: underline;
+    cursor: pointer;
+    margin:4px;
+  }
+/*NEW POST*/
+
+.submit-btn1 {
+    width: auto;
+    border-radius: 15px;
+    margin: auto;
+    
+    color: #fff;
+    
+    padding: 10px 30px;
+    background-color: #FF4924;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+#inp{
+    height: 20px;
+    width: 100%;
+    border: none;
+    margin-top: 5px;
+    border-bottom: 2px solid #aaa;
+    background-color: transparent;
+    margin-bottom: 10px;
+    resize: none;
+    outline: none;
+    transition: .5s
+}
+/* ==========================================Aigerim========================================== */
